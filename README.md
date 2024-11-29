@@ -1,7 +1,7 @@
 # Deep Q-Learning Tetris
 
 This project implements Deep Q-Learning (DQN) to autonomously play the classic game of Tetris. Using reinforcement learning, the system trains a neural network to maximize the score by clearing as many rows as possible while minimizing empty spaces and irregularities in the board.
----
+
 
 ## Project Overview
 
@@ -44,12 +44,12 @@ Tetris is a well-known puzzle game where players manipulate falling blocks (tetr
 ## Running the Project
 ### Training
 - To train the DQN agent, run:
-    python train.py
+* **python train.py*
 
 ### Testing
 - After training, use the following command to test the model and record gameplay:
-    python test.py
-(You could find my trained model at trained_models/tetris)
+* **python test.py*
+- You could find my trained model at trained_models/tetris
 
 
 ## Requirements
